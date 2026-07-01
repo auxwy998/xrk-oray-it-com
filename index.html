@@ -101,7 +101,7 @@ img{aspect-ratio:3/2;width:100%;height:auto;object-fit:cover;border-radius:12px}
 .scenario-card{position:relative;border-radius:16px;overflow:hidden;border:1px solid rgba(59,130,246,.12);transition:border-color .3s,transform .3s;min-height:220px;background:var(--bg2)}
 .scenario-card:hover{border-color:var(--accent);transform:translateY(-4px)}
 .scenario-card img{aspect-ratio:3/2;width:100%;height:auto;object-fit:cover;border-radius:0}
-.scenario-card .scene-img{aspect-ratio:3/2;width:100%;height:auto;object-fit:cover;border-radius:0;display:flex;align-items:center;justify-content:center;font-size:64px;}
+.scenario-card .scene-img{aspect-ratio:3/2;width:100%;height:auto;object-fit:cover;border-radius:0;}
 .scenario-overlay{position:absolute;bottom:0;left:0;right:0;padding:28px;background:linear-gradient(rgba(10,22,40,.3),rgba(10,22,40,.95))}
 .scenario-overlay h3{font-size:18px;font-weight:700;margin-bottom:6px}
 .scenario-overlay p{font-size:13px;color:var(--text-muted);line-height:1.6}
@@ -350,28 +350,28 @@ img{aspect-ratio:3/2;width:100%;height:auto;object-fit:cover;border-radius:12px}
     <p class="section-desc" style="margin:0 auto">无论企业IT运维、远程办公、技术支持还是工业管控，向日葵都是您的可靠伙伴</p>
     <div class="scenarios-grid">
       <div class="scenario-card">
-        <div class="scene-img" style="background:linear-gradient(135deg,#0f2847,#1a4b8c)" role="img" aria-label="企业IT运维场景">🖥️</div>
+        <img class="scene-img" src="img/scene_it.jpg" alt="企业IT运维场景">
         <div class="scenario-overlay">
           <h3>企业IT运维</h3>
           <p>批量设备管理、远程部署更新、CMD/SSH远程排查，结合开机棒实现无人值守机房远程运维</p>
         </div>
       </div>
       <div class="scenario-card">
-        <div class="scene-img" style="background:linear-gradient(135deg,#0c2d48,#1b5e8a)" role="img" aria-label="远程办公协作场景">💼</div>
+        <img class="scene-img" src="img/scene_office.jpg" alt="远程办公协作场景">
         <div class="scenario-overlay">
           <h3>远程办公协作</h3>
           <p>随时随地远程连接办公电脑，访问内网资源，超级桌面+成为副屏打造沉浸式远程工位</p>
         </div>
       </div>
       <div class="scenario-card">
-        <div class="scene-img" style="background:linear-gradient(135deg,#102a43,#1d4e89)" role="img" aria-label="技术支持协助场景">🛠️</div>
+        <img class="scene-img" src="img/scene_support.jpg" alt="技术支持协助场景">
         <div class="scenario-overlay">
           <h3>技术支持协助</h3>
           <p>远程协助客户解决技术问题，演示操作流程，AI助手小K智能诊断，提升服务效率与满意度</p>
         </div>
       </div>
       <div class="scenario-card">
-        <div class="scene-img" style="background:linear-gradient(135deg,#0d2137,#1a3f6f)" role="img" aria-label="工业设备管控场景">🏭</div>
+        <img class="scene-img" src="img/scene_industrial.jpg" alt="工业设备管控场景">
         <div class="scenario-overlay">
           <h3>工业设备管控</h3>
           <p>IPKVM控控+智能插座实现工业设备远程管控，信创全适配，满足等保三级合规要求</p>
